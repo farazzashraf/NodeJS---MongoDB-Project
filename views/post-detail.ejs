@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include("includes/head") %>
+        <link href="/styles/post-detail.css" rel="stylesheet">
+        <script src="/scripts/file-preview" defer></script>
+</head>
+
+<body>
+    <%- include("includes/header") %>
+        <div id="all-main">
+            <main id="post-detail">
+                <img src="<%= post.imagePath %>" alt="User Image">
+                <time datetime="<%= post.date %>">
+                    <%= post.humanReadableDate %>
+                </time>
+
+                <h1>
+                    <%= post.title %>
+                </h1>
+                <div id="post-meta">
+                    <h2>
+                        By <%= post.by %>
+                    </h2>
+                    <div>
+                        <div id="body-div">
+                            <p id="body">
+                                <%= post.content %>
+                            </p>
+                        </div>
+            </main>
+        </div>
+</body>
+
+</html>

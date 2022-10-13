@@ -1,0 +1,62 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-content: center;
+}
+
+
+#main-header {
+    /* background: linear-gradient(#8c70bc, #baa6dc, #3b2a5a, #7a7491, #ccb4c4, #3f3b4c); */
+    /* background: rgba(0, 0, 0, 0.63); */
+    background: url("/images/istockphoto.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 8rem;
+    height: 100%;
+    max-height: 96.8rem;
+    width: 26rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+
+#logo {
+    margin-top: 10rem;
+    margin-left: 0.3rem;
+}
+
+#logo a {
+    font-size: 5rem;
+    text-decoration: none;
+    color: rgba(237, 237, 237, 0.717);
+    letter-spacing: 0.3rem;
+}
+
+#main-header ul {
+    list-style: none;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#main-header li {
+    font-size: 2rem;
+    margin: 1.5rem;
+    margin-right: 4rem;
+    transition: 1s;
+}
+
+#main-header li:hover {
+    transform: scale(1.2);
+}
+
+#main-header li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.916);   
+}

@@ -1,0 +1,78 @@
+body {
+    background: url("/images/istockphoto-122.jpg");
+    background-size: cover;
+}
+
+form {
+    max-width: 25rem;
+    position: absolute;
+    left: 44.5rem;
+    top: 10rem;
+    border: 1px solid black;
+    width: 100%;
+    padding: 1rem 3rem;
+    background: url("/images/paper-cut-luxury.jpg");
+    background-size: cover;
+    border-radius: 4px;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.685);
+    font-size: 3rem;
+    position: relative;
+    left: 49.5rem;
+    text-align: center;
+    margin-top: 2.5rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.5rem;
+    text-transform: uppercase;
+    font-style: initial;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.25rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+input,
+textarea {
+    font-family: inherit;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgba(255, 255, 255, 0.468);;
+    cursor: pointer;
+    color: white;
+}
+
+input:focus,
+textarea:focus {
+    background-color: rgba(230, 230, 230, 0.475);
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
+.form-control {
+    margin: 1.5rem 0;
+}
+
+.btn2 {
+    background-color: blue;
+}
+
+#image-preview {
+    display: none;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+#file {
+    margin-top: 1rem;
+}

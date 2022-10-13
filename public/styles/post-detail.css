@@ -1,0 +1,60 @@
+body {
+    /* background: url("/images/photo-158.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background: rgb(35, 35, 35);
+}
+
+#post-detail {
+    margin-left: 33rem;
+    margin-top: 10rem;
+    /* color: rgba(255, 255, 255, 0.749); */
+    /* background: url("/images/hand-painted.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 40rem; */
+}
+
+#post-detail img {
+    position: absolute;
+    right: 8rem;
+    top: 8rem;
+}
+
+#post-detail time {
+    font-style: italic;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: rgba(255, 255, 255, 0.749);
+}
+
+#post-detail h1 {
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    font-size: 3.5rem;
+    margin-top: -7rem;
+    padding: 2rem 2rem;
+    padding-top: 3rem;
+    color: rgba(255, 255, 255, 0.749);
+    text-decoration: underline;
+}
+
+#post-meta {
+    color: rgba(255, 255, 255, 0.749);
+    padding: 1rem 2rem;
+}
+
+#post-meta h2 {
+    display: inline;
+    font-style: italic;
+    position: relative;
+    top: -2rem;
+}
+
+#body {
+    margin-top: 1rem;
+    white-space: pre-line;
+    font-size: 1.8rem;
+}

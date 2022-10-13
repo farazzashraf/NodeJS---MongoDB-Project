@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('includes/head') %>
+        <link href="/styles/posts.css" rel="stylesheet">
+</head>
+
+<body>
+    <%- include('includes/header') %>
+
+        <main id="all-posts">
+            <div id="h1">
+                <h1>Posts</h1>
+            </div>
+            <% if (!posts || posts.length===0) { %>
+                <p class="btn00">No posts found guys. Create SOME!!</p>
+                <a class="btn btn0" href="/create-post">Create a new post</a>
+                <% } else { %>
+                    <ol id="posts-list">
+                        <% for (const post of posts) { %>
+                            <li>
+                                <%- include('includes/post-item', { post: post }) %>
+                            </li>
+                            <% } %>
+                    </ol>
+                    <% } %>
+        </main>
+
+</body>
+
+</html>

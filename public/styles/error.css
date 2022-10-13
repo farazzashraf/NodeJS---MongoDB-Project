@@ -1,0 +1,16 @@
+main {
+    margin-left: 40rem;
+    margin-top: 10rem;
+}
+
+main p {
+    margin-top: 2rem;
+}
+
+.btn3 {
+    position: relative;
+    top: 2rem;
+    background-color: blue;
+    text-decoration: none;
+} 
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include("includes/head") %>
+        <link rel="stylesheet" href="/styles/create.css">
+        <script src="/scripts/file-preview.js" defer></script>
+</head>
+
+<body>
+    <%- include("includes/header") %>
+        <main>
+            <h1>Create Post</h1>
+            <form action="/posts" method="post" enctype="multipart/form-data">
+                <div class="form-control">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="title" required maxlength="100">
+                </div>
+                <div class="form-control">
+                    <label for="by">By</label>
+                    <input type="text" id="by" name="by" required maxlength="100">
+                </div>
+                <div class="form-control">
+                    <label for="content">Content</label>
+                    <textarea id="content" name="content" required rows="5"></textarea>
+                </div>
+                <div class="form-control">
+                    <label for="file">Content</label>
+                    <img id="image-preview" src="" alt="picked image.">
+                    <input type="file" id="file" name="file" required accept="image/jpg,image/png">
+                </div>
+                <button class="btn btn2">Add Post</button>
+            </form>
+        </main>
+</body>
+
+</html>
